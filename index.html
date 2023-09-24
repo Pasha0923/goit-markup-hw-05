@@ -406,17 +406,21 @@
                     </li>
                 </ul>
             </div>
-            <div class="container-subscribe">
+            <div>
                 <p class="subscribe-text">Subscribe</p>
-                <input class="subscribe-input" type="email" name="user-email" id="user-email" placeholder="Email" />
+                <form class="subscribe-form">
+                    <label class="subscribe-label" for="user-email"></label>
+                    <input class="subscribe-input" type="email" name="user-email" id="user-email" placeholder="Email" />
+
+                    <div class="container-button">
+                        <button class="button-footer" type="button">Subscribe
+                            <svg class="icon-telegram" width="24" height="24">
+                                <use href="./images/icons.svg#icon-Frame"></use>
+                            </svg>
+                        </button>
+                </form>
             </div>
-            <div class="container-button">
-                <button class="button-footer" type="button">Subscribe
-                    <svg class="icon-telegram" width="24" height="24">
-                        <use href="./images/icons.svg#icon-Frame"></use>
-                    </svg>
-                </button>
-            </div>
+        </div>
     </footer>
     <div class="backdrop">
         <div class="modal">

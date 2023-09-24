@@ -448,9 +448,7 @@ a {
 .social-link-footer:focus {
   background-color: #31d0aa;
 }
-.container-subscribe {
-  margin-right: 24px;
-}
+
 .subscribe-text {
   color: #fff;
   font-size: 16px;
@@ -459,6 +457,11 @@ a {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
 .subscribe-input {
   width: 264px;
   height: 40px;
